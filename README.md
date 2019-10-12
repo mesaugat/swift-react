@@ -44,7 +44,7 @@ Sometimes testing a small React quirkiness is too cumbersome.
 ## Caveats
 
 * The main js file should be named `index.js`.
-* The main component should be rendered to the `#root` dom element.
+* The main component should be rendered to the `#root` DOM element.
 * You do not need to import `React` or `ReactDOM` as it is automatically loaded by webpack under the hood.
 * Works only with latest `React` and `ReactDOM` packages.
 
