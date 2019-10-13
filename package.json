@@ -1,9 +1,9 @@
 {
-  "name": "reactd",
+  "name": "swift-react",
   "version": "1.0.0-beta.0",
   "description": "Quick and dirty way to run React",
   "bin": {
-    "reactd": "cli.js"
+    "swift-react": "cli.js"
   },
   "files": [
     "cli.js",
@@ -12,9 +12,9 @@
   ],
   "keywords": [
     "react",
-    "reactd",
     "webpack",
-    "react-dev"
+    "react-dev",
+    "swift-react"
   ],
   "author": "Saugat Acharya <mesaugat@gmail.com>",
   "license": "MIT",

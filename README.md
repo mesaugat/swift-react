@@ -1,12 +1,12 @@
-# reactd
+# swift-react
 
-[![NPM Version](https://img.shields.io/npm/v/reactd.svg?style=flat-square)](https://www.npmjs.com/package/reactd)
+[![NPM Version](https://img.shields.io/npm/v/swift-react.svg?style=flat-square)](https://www.npmjs.com/package/swift-react)
 
 <div align="center">
 <b>Quick and dirty way to run React.</b>
 </div>
 
-Note: `reactd` is strictly for development usage only and is helpful for quick prototyping and testing.
+Note: `swift-react` is strictly for development usage only and is helpful for quick prototyping and testing.
 
 ## Prerequisite
 
@@ -21,18 +21,18 @@ Create an `index.js` file with a React component.
 
 function App() {
   return (
-    <h1>Hello reactd</h1>
+    <h1>Hello swift-react</h1>
   );
 }
 
-// Caution: You don't need to import React or ReactDOM for reactd to work.
+// Caution: You don't need to import React or ReactDOM for swift-react to work.
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 Finally, run this command from the exact place where you created the `index.js` file.
 
 ```bash
-$ npx reactd
+$ npx swift-react
 ```
 
 This command will run a `webpack-dev-server` and serve your bundle.

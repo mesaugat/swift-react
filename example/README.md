@@ -1,6 +1,6 @@
-# reactd Example
+# swift-react Example
 
-Working example of `reactd`.
+Working example of `swift-react`.
 
 ```
 example
@@ -9,4 +9,4 @@ example
 └── react.png
 ```
 
-From the example directory run `npx reactd` to get started.
+From the example directory run `npx swift-react` to get started.
