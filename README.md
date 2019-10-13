@@ -2,11 +2,9 @@
 
 [![NPM Version](https://img.shields.io/npm/v/swift-react.svg?style=flat-square)](https://www.npmjs.com/package/swift-react)
 
-<div align="center">
-<b>Quick and dirty way to run React.</b>
-</div>
+**Quick and dirty way to run React.**
 
-Note: `swift-react` is strictly for development usage only and is helpful for quick prototyping and testing.
+*Note: `swift-react` is strictly for development usage only and is helpful for quick prototyping and testing.*
 
 ## Prerequisite
 
