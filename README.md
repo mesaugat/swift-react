@@ -35,6 +35,10 @@ $ npx swift-react
 
 This command will run a `webpack-dev-server` and serve your bundle.
 
+## Example
+
+Navigate to the [example directory](https://github.com/mesaugat/swift-react/tree/master/example) to see `swift-react` in action.
+
 ## Motivation
 
 Sometimes testing a small React quirkiness is too cumbersome.
