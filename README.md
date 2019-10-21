@@ -82,7 +82,7 @@ Finally, run this command from the exact place where you created the `package.js
 $ yarn swift-react
 ```
 
-The advantage of this method as compared to the first one is that you don't have to download dependencies of `swift-react` time and again.
+The advantage of this method as compared to the first one is that you don't have to download dependencies of `swift-react` time and again. It is great for offline usage.
 
 ## Motivation
 
