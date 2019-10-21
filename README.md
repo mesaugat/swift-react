@@ -39,6 +39,51 @@ This command will run a `webpack-dev-server` and serve your bundle.
 
 Navigate to the [example directory](https://github.com/mesaugat/swift-react/tree/master/example) to see `swift-react` in action.
 
+## Usage with package.json
+
+Add `swift-react` as a dev dependency.
+
+```bash
+$ yarn add swift-react --dev
+```
+
+```json
+// package.json
+
+{
+  "name": "swift-react-example",
+  "scripts": {
+    "swift-react": "swift-react"
+  },
+  "devDependencies": {
+    "swift-react": "*"
+  }
+}
+```
+
+Next, create an `index.js` file right next to your `package.json` file.
+
+```js
+// index.js
+
+function App() {
+  return (
+    <h1>Hello swift-react</h1>
+  );
+}
+
+// Caution: You don't need to import React or ReactDOM for swift-react to work.
+ReactDOM.render(<App />, document.getElementById('root'));
+```
+
+Finally, run this command from the exact place where you created the `package.json` and `index.js` file.
+
+```bash
+$ yarn swift-react
+```
+
+*The advantage of this method as compared to the first one is that you don't have to download dependencies of `swift-react` again and again.*
+
 ## Motivation
 
 Sometimes testing a small React quirkiness is too cumbersome.
