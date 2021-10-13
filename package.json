@@ -1,6 +1,6 @@
 {
   "name": "swift-react",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Quick and dirty way to run React",
   "bin": {
     "swift-react": "cli.js"
