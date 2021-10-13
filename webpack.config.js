@@ -60,6 +60,6 @@ module.exports = {
     })
   ],
   devServer: {
-    contentBase: resolvePath('dist')
+    static: resolvePath('dist')
   }
 };
